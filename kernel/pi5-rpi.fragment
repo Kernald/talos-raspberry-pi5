@@ -21,7 +21,7 @@ CONFIG_COMMON_CLK_RP1_SDIO=y
 CONFIG_BCM2712_IOMMU=y
 CONFIG_PWM_RP1=y
 
-# Rest of the RP1 and BCM2712 bring-up, already set by stock Talos. Asserted alongside the five above so a
+# Rest of the RP1 and BCM2712 bring-up, already set by stock Talos. Asserted alongside the six above so a
 # partial regression is as loud as a total one.
 CONFIG_PINCTRL_RP1=y
 CONFIG_COMMON_CLK_RP1=y
