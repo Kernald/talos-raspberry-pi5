@@ -95,6 +95,7 @@ anchor it edits and fails naming what upstream moved.
 - A local patch is never skipped. When it stops applying, the build fails and names it. Rebase it onto the new
   kernel commit, or delete it once the rpi tree has the fix.
 - Its content is part of `kernel_key` and of the fingerprint. Adding or editing one rebuilds the kernel.
+- The release notes list each one under "Added kernel patches", linked to its file at the release tag.
 
 ## Validation
 
